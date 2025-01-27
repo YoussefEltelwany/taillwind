@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
-
 @custom-variant dark (&:where(.dark, .dark *));
 
 @layer components {
@@ -14,4 +13,4 @@
         @apply: bg-green-400;
         background-color: #68D391;
       }
-  }
+  }   
